@@ -62,4 +62,11 @@
   .projects {
     grid-template-columns: 1fr;
   }
+  .boxes {
+    flex-direction: column;
+    margin: 5px 10px;
+    div {
+      font-size: 1.2rem;
+    }
+  }
 }
